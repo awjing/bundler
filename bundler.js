@@ -64,7 +64,6 @@ const makeDependenciesGraph = (entry) => {
 }
 
 const generateCode = (entry) => {
-  console.log(makeDependenciesGraph(entry))
   const graph = JSON.stringify(makeDependenciesGraph(entry))
 
   return `
@@ -86,3 +85,5 @@ const generateCode = (entry) => {
 
 const code = generateCode('./src/index.js')
 console.log(code)
+
+// node bundler.js | highlight

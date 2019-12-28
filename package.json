@@ -1,0 +1,25 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awjing/bundler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awjing/bundler/issues"
+  },
+  "homepage": "https://github.com/awjing/bundler#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/parser": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/traverse": "^7.7.4"
+  }
+}
